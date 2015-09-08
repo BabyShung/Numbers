@@ -75,7 +75,7 @@ class EnterResultViewController: UIViewController {
                 })
             }
         })
-        observer?.start()
+        observer?.start()//start observing
     }
     
     override func viewDidAppear(animated: Bool) {

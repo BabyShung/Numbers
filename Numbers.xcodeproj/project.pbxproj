@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E661CB941B9E67C9006F0713 /* EnterResultViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E661CB931B9E67C9006F0713 /* EnterResultViewModelTests.swift */; settings = {ASSET_TAGS = (); }; };
 		E6F94B2E1B9B93BB008F2D77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F94B2D1B9B93BB008F2D77 /* AppDelegate.swift */; };
 		E6F94B331B9B93BB008F2D77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F94B311B9B93BB008F2D77 /* Main.storyboard */; };
 		E6F94B351B9B93BB008F2D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F94B341B9B93BB008F2D77 /* Assets.xcassets */; };
 		E6F94B381B9B93BB008F2D77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F94B361B9B93BB008F2D77 /* LaunchScreen.storyboard */; };
 		E6F94B431B9B93BC008F2D77 /* NumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F94B421B9B93BC008F2D77 /* NumbersTests.swift */; };
 		E6F94B4E1B9B93BC008F2D77 /* NumbersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F94B4D1B9B93BC008F2D77 /* NumbersUITests.swift */; };
-		E6F94B5C1B9B959D008F2D77 /* Bond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F94B5B1B9B959D008F2D77 /* Bond.framework */; };
 		E6F94B7A1B9B9AC8008F2D77 /* Array+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F94B661B9B9AC8008F2D77 /* Array+Additions.swift */; settings = {ASSET_TAGS = (); }; };
 		E6F94B7C1B9B9AC8008F2D77 /* EnterResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F94B681B9B9AC8008F2D77 /* EnterResultViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		E6F94B7D1B9B9AC8008F2D77 /* EnterResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F94B691B9B9AC8008F2D77 /* EnterResultViewModel.swift */; settings = {ASSET_TAGS = (); }; };
@@ -32,6 +32,10 @@
 		E6F94B8B1B9B9AC8008F2D77 /* UIButton+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F94B771B9B9AC8008F2D77 /* UIButton+Theme.swift */; settings = {ASSET_TAGS = (); }; };
 		E6F94B8C1B9B9AC8008F2D77 /* UISegmentedControl+Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F94B781B9B9AC8008F2D77 /* UISegmentedControl+Values.swift */; settings = {ASSET_TAGS = (); }; };
 		E6F94B8D1B9B9AC8008F2D77 /* ZHTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F94B791B9B9AC8008F2D77 /* ZHTimer.swift */; settings = {ASSET_TAGS = (); }; };
+		E6FDE49E1B9DEA0900FBBBBC /* NumberListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FDE49D1B9DEA0900FBBBBC /* NumberListViewModelTests.swift */; settings = {ASSET_TAGS = (); }; };
+		E6FDE4A11B9DEF2D00FBBBBC /* RandomNumberViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FDE4A01B9DEF2D00FBBBBC /* RandomNumberViewModelTests.swift */; settings = {ASSET_TAGS = (); }; };
+		E6FDE4A21B9DF09B00FBBBBC /* Bond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F94B5B1B9B959D008F2D77 /* Bond.framework */; };
+		E6FDE4A41B9DF0F900FBBBBC /* Bond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F94B5B1B9B959D008F2D77 /* Bond.framework */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E661CB931B9E67C9006F0713 /* EnterResultViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EnterResultViewModelTests.swift; path = RandomNumbers/EnterResultViewModelTests.swift; sourceTree = "<group>"; };
 		E6F94B2A1B9B93BB008F2D77 /* Numbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Numbers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F94B2D1B9B93BB008F2D77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Numbers/AppDelegate.swift; sourceTree = "<group>"; };
 		E6F94B321B9B93BB008F2D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,6 +88,8 @@
 		E6F94B771B9B9AC8008F2D77 /* UIButton+Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Theme.swift"; sourceTree = "<group>"; };
 		E6F94B781B9B9AC8008F2D77 /* UISegmentedControl+Values.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Values.swift"; sourceTree = "<group>"; };
 		E6F94B791B9B9AC8008F2D77 /* ZHTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHTimer.swift; sourceTree = "<group>"; };
+		E6FDE49D1B9DEA0900FBBBBC /* NumberListViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumberListViewModelTests.swift; path = NumberTrainings/NumberListViewModelTests.swift; sourceTree = "<group>"; };
+		E6FDE4A01B9DEF2D00FBBBBC /* RandomNumberViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RandomNumberViewModelTests.swift; path = RandomNumbers/RandomNumberViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6F94B5C1B9B959D008F2D77 /* Bond.framework in Frameworks */,
+				E6FDE4A21B9DF09B00FBBBBC /* Bond.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6FDE4A41B9DF0F900FBBBBC /* Bond.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +144,8 @@
 		E6F94B2C1B9B93BB008F2D77 /* Numbers */ = {
 			isa = PBXGroup;
 			children = (
-				E6F94B651B9B9AB5008F2D77 /* Classes */,
 				E6F94B311B9B93BB008F2D77 /* Main.storyboard */,
+				E6F94B651B9B9AB5008F2D77 /* Classes */,
 			);
 			path = Numbers;
 			sourceTree = "<group>";
@@ -145,6 +153,8 @@
 		E6F94B411B9B93BC008F2D77 /* NumbersTests */ = {
 			isa = PBXGroup;
 			children = (
+				E6FDE49F1B9DEF1200FBBBBC /* RandomNumbers */,
+				E6FDE49C1B9DE9BB00FBBBBC /* NumberTrainings */,
 				E6F94B421B9B93BC008F2D77 /* NumbersTests.swift */,
 				E6F94B441B9B93BC008F2D77 /* Info.plist */,
 			);
@@ -182,26 +192,99 @@
 		E6F94B651B9B9AB5008F2D77 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E6FDE4991B9DE93E00FBBBBC /* NumberTraining */,
+				E6FDE4971B9DE90700FBBBBC /* RandomNumbers */,
+				E6FDE4931B9DE82600FBBBBC /* Model */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E6FDE4931B9DE82600FBBBBC /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				E6F94B661B9B9AC8008F2D77 /* Array+Additions.swift */,
-				E6F94B681B9B9AC8008F2D77 /* EnterResultViewController.swift */,
-				E6F94B691B9B9AC8008F2D77 /* EnterResultViewModel.swift */,
-				E6F94B6A1B9B9AC8008F2D77 /* NumberDurationCollectionViewCell.swift */,
-				E6F94B6B1B9B9AC8008F2D77 /* NumberDurationViewController.swift */,
-				E6F94B6C1B9B9AC8008F2D77 /* NumberDurationViewModel.swift */,
-				E6F94B6D1B9B9AC8008F2D77 /* NumberListViewController.swift */,
-				E6F94B6E1B9B9AC8008F2D77 /* NumberListViewModel.swift */,
 				E6F94B6F1B9B9AC8008F2D77 /* ObserverProxy.swift */,
 				E6F94B701B9B9AC8008F2D77 /* OneHundredNumbers.swift */,
 				E6F94B711B9B9AC8008F2D77 /* Queue.swift */,
 				E6F94B721B9B9AC8008F2D77 /* RandomNumbers.swift */,
-				E6F94B731B9B9AC8008F2D77 /* RandomNumbersViewController.swift */,
-				E6F94B741B9B9AC8008F2D77 /* RandomNumberViewModel.swift */,
 				E6F94B751B9B9AC8008F2D77 /* Result.swift */,
 				E6F94B771B9B9AC8008F2D77 /* UIButton+Theme.swift */,
 				E6F94B781B9B9AC8008F2D77 /* UISegmentedControl+Values.swift */,
 				E6F94B791B9B9AC8008F2D77 /* ZHTimer.swift */,
 			);
-			name = Classes;
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E6FDE4941B9DE86800FBBBBC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E6F94B6B1B9B9AC8008F2D77 /* NumberDurationViewController.swift */,
+				E6F94B6D1B9B9AC8008F2D77 /* NumberListViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E6FDE4951B9DE89400FBBBBC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E6F94B6C1B9B9AC8008F2D77 /* NumberDurationViewModel.swift */,
+				E6F94B6E1B9B9AC8008F2D77 /* NumberListViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		E6FDE4971B9DE90700FBBBBC /* RandomNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				E6FDE49B1B9DE99900FBBBBC /* ViewModels */,
+				E6FDE49A1B9DE98E00FBBBBC /* ViewControllers */,
+			);
+			name = RandomNumbers;
+			sourceTree = "<group>";
+		};
+		E6FDE4991B9DE93E00FBBBBC /* NumberTraining */ = {
+			isa = PBXGroup;
+			children = (
+				E6FDE4951B9DE89400FBBBBC /* ViewModels */,
+				E6FDE4941B9DE86800FBBBBC /* ViewControllers */,
+				E6F94B6A1B9B9AC8008F2D77 /* NumberDurationCollectionViewCell.swift */,
+			);
+			name = NumberTraining;
+			sourceTree = "<group>";
+		};
+		E6FDE49A1B9DE98E00FBBBBC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E6F94B681B9B9AC8008F2D77 /* EnterResultViewController.swift */,
+				E6F94B731B9B9AC8008F2D77 /* RandomNumbersViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E6FDE49B1B9DE99900FBBBBC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E6F94B691B9B9AC8008F2D77 /* EnterResultViewModel.swift */,
+				E6F94B741B9B9AC8008F2D77 /* RandomNumberViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		E6FDE49C1B9DE9BB00FBBBBC /* NumberTrainings */ = {
+			isa = PBXGroup;
+			children = (
+				E6FDE49D1B9DEA0900FBBBBC /* NumberListViewModelTests.swift */,
+			);
+			name = NumberTrainings;
+			sourceTree = "<group>";
+		};
+		E6FDE49F1B9DEF1200FBBBBC /* RandomNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				E6FDE4A01B9DEF2D00FBBBBC /* RandomNumberViewModelTests.swift */,
+				E661CB931B9E67C9006F0713 /* EnterResultViewModelTests.swift */,
+			);
+			name = RandomNumbers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -378,7 +461,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6FDE4A11B9DEF2D00FBBBBC /* RandomNumberViewModelTests.swift in Sources */,
 				E6F94B431B9B93BC008F2D77 /* NumbersTests.swift in Sources */,
+				E661CB941B9E67C9006F0713 /* EnterResultViewModelTests.swift in Sources */,
+				E6FDE49E1B9DEA0900FBBBBC /* NumberListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,6 +629,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = NumbersTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.planhola.NumbersTests;
@@ -555,6 +645,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = NumbersTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.planhola.NumbersTests;

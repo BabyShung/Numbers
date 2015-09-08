@@ -18,11 +18,12 @@ class NumberListViewModel {
     let statisticsButtonHidden = Observable<Bool>(true)
 
     var timer = ZHTimer()
-    private var numberQueue = Queue<String>()
+    private var numberQueue : Queue<String>
     var resultList : [(number:String,durationText:String,duration:Double)] = []
     
     init(){
         
+        self.numberQueue = Queue<String>()
         prepareNumbersQueue()
         
         timer.listener = {
@@ -33,7 +34,7 @@ class NumberListViewModel {
     /**
       Prepare shuffled numbers from 0 to 99
     */
-    func prepareNumbersQueue(){
+    func prepareNumbersQueue() {
         var numbers = [String]()
         for i in 0 ... 9 {
             for j in 0 ... 9 {
@@ -43,6 +44,9 @@ class NumberListViewModel {
             }
         }
         numbers.shuffle()
+        if !self.numberQueue.isEmpty() {
+            self.numberQueue = Queue<String>()
+        }
         for number in numbers {
             self.numberQueue.enqueue(number)
         }
@@ -70,9 +74,9 @@ class NumberListViewModel {
         }
         
         //get strings from the queue
-        var actualLoop = howManyNumbers / 2
+        let actualLoop = howManyNumbers / 2
         var numberText = String()
-        for index in 1 ... actualLoop {
+        for _ in 1 ... actualLoop {
             if !numberQueue.isEmpty() {
                 numberText += numberQueue.dequeue()
             } else {

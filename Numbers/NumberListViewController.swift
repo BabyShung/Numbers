@@ -25,7 +25,7 @@ class NumberListViewController: UIViewController, UIPickerViewDataSource, UIPick
         
         self.pickerView.hidden = self.viewModel.queueIsEmpty() ? false : true
         
-        var howManyNumbers = self.options[self.pickerView.selectedRowInComponent(0)]
+        let howManyNumbers = self.options[self.pickerView.selectedRowInComponent(0)]
         self.viewModel.getNumbers(howManyNumbers)
     }
     

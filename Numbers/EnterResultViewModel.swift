@@ -16,45 +16,55 @@ class EnterResultViewModel {
     let enterResultTextFieldText = Observable<String>("");
     
     func confirm(tuple : (correctString: String, inputString : String)) {
-        var cString = tuple.0.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
-        var iString = tuple.1.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+        
+        //trim
+        let cString = tuple.0.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+        let iString = tuple.1.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceAndNewlineCharacterSet())
+        
+        if iString.characters.count == 0 {
+            resultLabelText.value = NSAttributedString(string: "Please enter your result")
+            return
+        }
         
         if cString == iString {
             resultLabelText.value = NSAttributedString(string: "Congrat! You got the right answer!")
         } else {
-            //resultLabelText.value = "Sorry, it's wrong."
-            resultLabelText.value = NSAttributedString(string: "Sorry, it's wrong.")
             
             //update to Swift 2.0
-            //resultLabelText.value = self.getComparedString(cString, inputString: iString)
+            resultLabelText.value = self.getComparedString(cString, inputString: iString)
         }
         
     }
     
-    func getComparedString(correctString: String, inputString: String) -> NSAttributedString {
+    func getComparedString(correctString: NSString, inputString: NSString) -> NSAttributedString {
         
         var loopTimes : Int
-        var correctLength = correctString.characters.count
-        var inputLength = inputString.characters.count
         
-        var muString = NSMutableAttributedString(string: correctString, attributes: [NSFontAttributeName:UIFont(name: "Helvetica Neue", size: 18.0)!])
+        let muString = NSMutableAttributedString(string: correctString as String, attributes: [NSFontAttributeName:UIFont(name: "Helvetica Neue", size: 16.0)!])
         
-        if correctLength > inputLength {
-            loopTimes = inputLength
+        if correctString.length > inputString.length {
+            loopTimes = inputString.length
         } else {
-            loopTimes = correctLength
+            loopTimes = correctString.length
         }
         
-//        for index in 0 ..< loopTimes {
-//            if (correctString[index] === inputString[index]) {
-//                muString.addAttribute(NSForegroundColorAttributeName, value: UIColor.redColor(), range: NSRange(location: 2, length: 4))
-//                correctString.
-//            }
-//        }
+        for index in 0 ..< loopTimes {
+            
+            if (correctString.characterAtIndex(index)
+                != inputString.characterAtIndex(index)) {
+                    muString.addAttribute(NSForegroundColorAttributeName, value: UIColor.redColor(), range: NSRange(location: index, length: 1))
+            }
+        }
         
-        muString.addAttribute(NSForegroundColorAttributeName, value: UIColor.redColor(), range: NSRange(location: 2, length: 4))
-        muString.addAttribute(NSStrikethroughStyleAttributeName, value: 2, range: NSRange(location: 0, length: 4))
-        
+        if correctString.length > inputString.length {
+            
+            muString.addAttribute(NSForegroundColorAttributeName, value: UIColor.redColor(), range: NSRange(location: loopTimes, length: muString.length - loopTimes))
+            
+        } else if correctString.length < inputString.length {
+            let appendString = NSAttributedString(string: inputString.substringFromIndex(loopTimes))
+            muString.appendAttributedString(appendString)
+            muString.addAttribute(NSStrikethroughStyleAttributeName, value: 2, range: NSRange(location: loopTimes, length: muString.length - loopTimes))
+        }
         return muString
     }
     
