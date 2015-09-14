@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2955F0A6-A51D-4175-9A09-4224C8FBFAF9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>76C0A12B3ACC5366089A418CC67EE5208D47971E</key>
+		<string>https://github.com/BabyShung/Numbers.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Numbers.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>76C0A12B3ACC5366089A418CC67EE5208D47971E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/BabyShung/Numbers.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>76C0A12B3ACC5366089A418CC67EE5208D47971E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>76C0A12B3ACC5366089A418CC67EE5208D47971E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Numbers</string>
+		</dict>
+	</array>
+</dict>
+</plist>

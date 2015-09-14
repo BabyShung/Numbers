@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		E661CB941B9E67C9006F0713 /* EnterResultViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E661CB931B9E67C9006F0713 /* EnterResultViewModelTests.swift */; settings = {ASSET_TAGS = (); }; };
+		E6A22D981BA64AAC007E58BF /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A22D971BA64AAC007E58BF /* String+Additions.swift */; settings = {ASSET_TAGS = (); }; };
+		E6A22D9A1BA64D8A007E58BF /* MyDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A22D991BA64D8A007E58BF /* MyDataViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E6A22D9C1BA64DA5007E58BF /* SettingsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A22D9B1BA64DA5007E58BF /* SettingsCollectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E6A22D9E1BA64F5F007E58BF /* RookieOptionsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A22D9D1BA64F5F007E58BF /* RookieOptionsCollectionViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		E6F94B2E1B9B93BB008F2D77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F94B2D1B9B93BB008F2D77 /* AppDelegate.swift */; };
 		E6F94B331B9B93BB008F2D77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F94B311B9B93BB008F2D77 /* Main.storyboard */; };
 		E6F94B351B9B93BB008F2D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F94B341B9B93BB008F2D77 /* Assets.xcassets */; };
@@ -36,6 +40,12 @@
 		E6FDE4A11B9DEF2D00FBBBBC /* RandomNumberViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FDE4A01B9DEF2D00FBBBBC /* RandomNumberViewModelTests.swift */; settings = {ASSET_TAGS = (); }; };
 		E6FDE4A21B9DF09B00FBBBBC /* Bond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F94B5B1B9B959D008F2D77 /* Bond.framework */; };
 		E6FDE4A41B9DF0F900FBBBBC /* Bond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F94B5B1B9B959D008F2D77 /* Bond.framework */; settings = {ASSET_TAGS = (); }; };
+		E6FF6EFE1BA5CBF5008CDC15 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FF6EFD1BA5CBF5008CDC15 /* MenuViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E6FF6F061BA61223008CDC15 /* RookieOptionsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FF6F051BA61223008CDC15 /* RookieOptionsCollectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E6FF6F081BA61241008CDC15 /* GrandMasterOptionsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FF6F071BA61241008CDC15 /* GrandMasterOptionsCollectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E6FF6F0A1BA61288008CDC15 /* ReadyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FF6F091BA61288008CDC15 /* ReadyPageViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E6FF6F0C1BA612D3008CDC15 /* SharedReadingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FF6F0B1BA612D3008CDC15 /* SharedReadingListViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E6FF6F0E1BA61411008CDC15 /* CenterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6FF6F0D1BA61411008CDC15 /* CenterCollectionViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +67,10 @@
 
 /* Begin PBXFileReference section */
 		E661CB931B9E67C9006F0713 /* EnterResultViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EnterResultViewModelTests.swift; path = RandomNumbers/EnterResultViewModelTests.swift; sourceTree = "<group>"; };
+		E6A22D971BA64AAC007E58BF /* String+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Additions.swift"; sourceTree = "<group>"; };
+		E6A22D991BA64D8A007E58BF /* MyDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyDataViewController.swift; path = Classes/MyDataViewController.swift; sourceTree = SOURCE_ROOT; };
+		E6A22D9B1BA64DA5007E58BF /* SettingsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsCollectionViewController.swift; path = Classes/SettingsCollectionViewController.swift; sourceTree = SOURCE_ROOT; };
+		E6A22D9D1BA64F5F007E58BF /* RookieOptionsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RookieOptionsCollectionViewCell.swift; path = Classes/RookieOptionsCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
 		E6F94B2A1B9B93BB008F2D77 /* Numbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Numbers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F94B2D1B9B93BB008F2D77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Numbers/AppDelegate.swift; sourceTree = "<group>"; };
 		E6F94B321B9B93BB008F2D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -90,6 +104,12 @@
 		E6F94B791B9B9AC8008F2D77 /* ZHTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHTimer.swift; sourceTree = "<group>"; };
 		E6FDE49D1B9DEA0900FBBBBC /* NumberListViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NumberListViewModelTests.swift; path = NumberTrainings/NumberListViewModelTests.swift; sourceTree = "<group>"; };
 		E6FDE4A01B9DEF2D00FBBBBC /* RandomNumberViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RandomNumberViewModelTests.swift; path = RandomNumbers/RandomNumberViewModelTests.swift; sourceTree = "<group>"; };
+		E6FF6EFD1BA5CBF5008CDC15 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = Classes/MenuViewController.swift; sourceTree = SOURCE_ROOT; };
+		E6FF6F051BA61223008CDC15 /* RookieOptionsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RookieOptionsCollectionViewController.swift; path = Classes/RookieOptionsCollectionViewController.swift; sourceTree = SOURCE_ROOT; };
+		E6FF6F071BA61241008CDC15 /* GrandMasterOptionsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GrandMasterOptionsCollectionViewController.swift; path = Classes/GrandMasterOptionsCollectionViewController.swift; sourceTree = SOURCE_ROOT; };
+		E6FF6F091BA61288008CDC15 /* ReadyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReadyPageViewController.swift; path = Classes/ReadyPageViewController.swift; sourceTree = SOURCE_ROOT; };
+		E6FF6F0B1BA612D3008CDC15 /* SharedReadingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SharedReadingListViewController.swift; path = Classes/SharedReadingListViewController.swift; sourceTree = SOURCE_ROOT; };
+		E6FF6F0D1BA61411008CDC15 /* CenterCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CenterCollectionViewCell.swift; path = Classes/CenterCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +212,7 @@
 		E6F94B651B9B9AB5008F2D77 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E6FF6EFC1BA5CBCF008CDC15 /* Frame */,
 				E6FDE4991B9DE93E00FBBBBC /* NumberTraining */,
 				E6FDE4971B9DE90700FBBBBC /* RandomNumbers */,
 				E6FDE4931B9DE82600FBBBBC /* Model */,
@@ -202,6 +223,7 @@
 		E6FDE4931B9DE82600FBBBBC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E6A22D971BA64AAC007E58BF /* String+Additions.swift */,
 				E6F94B661B9B9AC8008F2D77 /* Array+Additions.swift */,
 				E6F94B6F1B9B9AC8008F2D77 /* ObserverProxy.swift */,
 				E6F94B701B9B9AC8008F2D77 /* OneHundredNumbers.swift */,
@@ -285,6 +307,22 @@
 				E661CB931B9E67C9006F0713 /* EnterResultViewModelTests.swift */,
 			);
 			name = RandomNumbers;
+			sourceTree = "<group>";
+		};
+		E6FF6EFC1BA5CBCF008CDC15 /* Frame */ = {
+			isa = PBXGroup;
+			children = (
+				E6FF6EFD1BA5CBF5008CDC15 /* MenuViewController.swift */,
+				E6FF6F051BA61223008CDC15 /* RookieOptionsCollectionViewController.swift */,
+				E6FF6F071BA61241008CDC15 /* GrandMasterOptionsCollectionViewController.swift */,
+				E6FF6F091BA61288008CDC15 /* ReadyPageViewController.swift */,
+				E6FF6F0B1BA612D3008CDC15 /* SharedReadingListViewController.swift */,
+				E6FF6F0D1BA61411008CDC15 /* CenterCollectionViewCell.swift */,
+				E6A22D991BA64D8A007E58BF /* MyDataViewController.swift */,
+				E6A22D9B1BA64DA5007E58BF /* SettingsCollectionViewController.swift */,
+				E6A22D9D1BA64F5F007E58BF /* RookieOptionsCollectionViewCell.swift */,
+			);
+			name = Frame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -435,19 +473,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6FF6F081BA61241008CDC15 /* GrandMasterOptionsCollectionViewController.swift in Sources */,
+				E6FF6F0A1BA61288008CDC15 /* ReadyPageViewController.swift in Sources */,
 				E6F94B2E1B9B93BB008F2D77 /* AppDelegate.swift in Sources */,
 				E6F94B8B1B9B9AC8008F2D77 /* UIButton+Theme.swift in Sources */,
 				E6F94B7D1B9B9AC8008F2D77 /* EnterResultViewModel.swift in Sources */,
 				E6F94B871B9B9AC8008F2D77 /* RandomNumbersViewController.swift in Sources */,
+				E6A22D9E1BA64F5F007E58BF /* RookieOptionsCollectionViewCell.swift in Sources */,
+				E6A22D981BA64AAC007E58BF /* String+Additions.swift in Sources */,
 				E6F94B811B9B9AC8008F2D77 /* NumberListViewController.swift in Sources */,
 				E6F94B851B9B9AC8008F2D77 /* Queue.swift in Sources */,
 				E6F94B801B9B9AC8008F2D77 /* NumberDurationViewModel.swift in Sources */,
 				E6F94B821B9B9AC8008F2D77 /* NumberListViewModel.swift in Sources */,
 				E6F94B841B9B9AC8008F2D77 /* OneHundredNumbers.swift in Sources */,
+				E6FF6F0E1BA61411008CDC15 /* CenterCollectionViewCell.swift in Sources */,
+				E6A22D9C1BA64DA5007E58BF /* SettingsCollectionViewController.swift in Sources */,
 				E6F94B7C1B9B9AC8008F2D77 /* EnterResultViewController.swift in Sources */,
+				E6A22D9A1BA64D8A007E58BF /* MyDataViewController.swift in Sources */,
+				E6FF6F0C1BA612D3008CDC15 /* SharedReadingListViewController.swift in Sources */,
 				E6F94B831B9B9AC8008F2D77 /* ObserverProxy.swift in Sources */,
+				E6FF6EFE1BA5CBF5008CDC15 /* MenuViewController.swift in Sources */,
 				E6F94B7A1B9B9AC8008F2D77 /* Array+Additions.swift in Sources */,
 				E6F94B881B9B9AC8008F2D77 /* RandomNumberViewModel.swift in Sources */,
+				E6FF6F061BA61223008CDC15 /* RookieOptionsCollectionViewController.swift in Sources */,
 				E6F94B7E1B9B9AC8008F2D77 /* NumberDurationCollectionViewCell.swift in Sources */,
 				E6F94B8C1B9B9AC8008F2D77 /* UISegmentedControl+Values.swift in Sources */,
 				E6F94B8D1B9B9AC8008F2D77 /* ZHTimer.swift in Sources */,
@@ -548,7 +596,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -587,7 +635,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
