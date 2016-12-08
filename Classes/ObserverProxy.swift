@@ -1,10 +1,3 @@
-//
-//  ObserverProxy.swift
-//  Rambos
-//
-//  Created by Hao Zheng on 7/31/15.
-//  Copyright (c) 2015 Planhola.com. All rights reserved.
-//
 
 import Foundation
 @objc class ObserverProxy {
